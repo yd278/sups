@@ -26,7 +26,6 @@ public class Element {
     }
 
     public boolean isTail() {
-        if (next == null) return true;
-        return false;
+        return (next == null)
     }
 }
